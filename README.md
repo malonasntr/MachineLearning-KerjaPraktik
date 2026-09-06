@@ -92,15 +92,7 @@ Untuk menentukan jumlah cluster yang digunakan, dilakukan evaluasi menggunakan:
 
 ### Jumlah Cluster
 
-Berdasarkan hasil evaluasi dan pertimbangan tujuan segmentasi, digunakan:
-
-**k = 5**
-
-Metode Elbow menunjukkan titik siku pada k = 5. Sementara itu, Silhouette Score memiliki nilai tertinggi pada k = 2.
-
-Namun, k = 5 dipilih karena memberikan segmentasi yang lebih rinci dan lebih mudah diinterpretasikan sesuai dengan tujuan analisis.
-
----
+Berdasarkan hasil evaluasi dan pertimbangan tujuan segmentasi, digunakan: **k = 5**
 
 ## 📈 Visualisasi PCA
 
