@@ -108,22 +108,6 @@ Namun, k = 5 dipilih karena memberikan segmentasi yang lebih rinci dan lebih mud
 
 Visualisasi PCA menunjukkan adanya pemisahan antar beberapa cluster, meskipun masih terdapat area yang mengalami overlap akibat adanya kemiripan karakteristik antar kelompok.
 
-## 📊 Evaluasi Jumlah Cluster
-
-### Elbow Method
-
-![Elbow Method](outputs/elbow_plot.png)
-
-### Silhouette Score
-
-![Silhouette Score](outputs/silhouette_plot.png)
-
-### Calinski-Harabasz Index
-
-![Calinski-Harabasz Index](outputs/ch_index_plot.png)
-
----
-
 ## 🧩 Profil Cluster
 
 Hasil K-Means menghasilkan lima kelompok dengan karakteristik utama sebagai berikut:
