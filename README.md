@@ -91,11 +91,11 @@ Berdasarkan hasil evaluasi dan pertimbangan tujuan segmentasi, digunakan:
 
 **k = 5**
 
-Metode Elbow menunjukkan titik siku pada k = 5. Sementara itu, Silhouette Score dan Calinski-Harabasz Index memiliki nilai tertinggi pada k = 2.
+Metode Elbow menunjukkan titik siku pada k = 5. Sementara itu, Silhouette Score memiliki nilai tertinggi pada k = 2.
 
 Namun, k = 5 dipilih karena memberikan segmentasi yang lebih rinci dan lebih mudah diinterpretasikan sesuai dengan tujuan analisis.
 
----
+
 
 ## 📈 Visualisasi PCA
 
