@@ -17,7 +17,7 @@ Tahapan analisis meliputi:
 
 > **Catatan:** Dataset asli merupakan data internal perusahaan dan tidak disertakan dalam repository ini.
 
----
+
 
 ## 🎯 Tujuan
 
@@ -50,7 +50,7 @@ Variabel yang digunakan meliputi:
 - NAMA_CAMAT
 - KENDARAAN_KORBAN
 
----
+
 
 ## 🔎 Exploratory Data Analysis
 
@@ -63,6 +63,7 @@ EDA dilakukan untuk memahami karakteristik, distribusi, dan pola awal pada data.
 - Jenis kecelakaan yang paling umum adalah tabrakan depan-depan.
 - Kelompok usia muda dan usia produktif merupakan kelompok yang cukup dominan.
 - Profesi korban yang banyak ditemukan adalah wiraswasta, pelajar/mahasiswa, dan karyawan swasta.
+
 
 
 ## ⚙️ Data Preprocessing
@@ -79,6 +80,7 @@ Variabel kategorikal diproses melalui:
 - **One-Hot Encoding** untuk mengubah variabel kategorikal menjadi representasi numerik.
 
 
+
 ## 🤖 K-Means Clustering
 
 Proses clustering dilakukan menggunakan **Python melalui Google Colab**.
@@ -90,11 +92,15 @@ Untuk menentukan jumlah cluster yang digunakan, dilakukan evaluasi menggunakan:
 
 Berdasarkan hasil evaluasi dan pertimbangan tujuan segmentasi, digunakan: **k = 5**
 
+
+
 ## 📈 Visualisasi PCA
 
 **Principal Component Analysis (PCA)** digunakan untuk mereduksi dimensi data sehingga hasil clustering dapat divisualisasikan dalam bentuk 2D dan 3D.
 
 Visualisasi PCA menunjukkan adanya pemisahan antar beberapa cluster, meskipun masih terdapat area yang mengalami overlap akibat adanya kemiripan karakteristik antar kelompok.
+
+
 
 ## 🧩 Profil Cluster
 
@@ -136,6 +142,4 @@ Hasil segmentasi dapat menjadi dasar untuk memahami karakteristik kelompok korba
 | Dimensionality Reduction | PCA |
 | Visualization | Matplotlib, Seaborn |
 | Environment | Google Colab |
-
----
 
