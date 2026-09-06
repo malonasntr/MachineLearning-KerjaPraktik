@@ -34,16 +34,21 @@ Dataset berisi informasi mengenai korban kecelakaan lalu lintas yang tercatat ol
 
 Variabel yang digunakan meliputi:
 
-- Hari, tanggal, dan jam kecelakaan
-- Wilayah
-- Jenis kelamin korban
-- Usia korban
-- Profesi korban
-- Jenis kendaraan
-- Sifat kecelakaan
-- Jenis kasus kecelakaan
-
-Dataset yang dianalisis terdiri dari **194.423 baris dan 9 kolom** setelah tahap persiapan data.
+- ID_KORBAN_KECELAKAAN
+- NAMA
+- UMUR
+- KELOMPOK_UMUR
+- JENIS_KELAMIN
+- PROFESI
+- CIDERA
+- ID_KECELAKAAN
+- NAMA_KANTOR
+- KASUS_KECELAKAAN
+- SIFAT_KECELAKAAN
+- TGL_KEJADIAN
+- NAMA_KABKOTA
+- NAMA_CAMAT
+- KENDARAAN_KORBAN
 
 ---
 
@@ -102,16 +107,6 @@ Namun, k = 5 dipilih karena memberikan segmentasi yang lebih rinci dan lebih mud
 **Principal Component Analysis (PCA)** digunakan untuk mereduksi dimensi data sehingga hasil clustering dapat divisualisasikan dalam bentuk 2D dan 3D.
 
 Visualisasi PCA menunjukkan adanya pemisahan antar beberapa cluster, meskipun masih terdapat area yang mengalami overlap akibat adanya kemiripan karakteristik antar kelompok.
-
-### PCA 2D
-
-![PCA 2D](outputs/pca_2d.png)
-
-### PCA 3D
-
-![PCA 3D](outputs/pca_3d.png)
-
----
 
 ## 📊 Evaluasi Jumlah Cluster
 
