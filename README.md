@@ -90,8 +90,6 @@ Untuk menentukan jumlah cluster yang digunakan, dilakukan evaluasi menggunakan:
 - **Elbow Method**
 - **Silhouette Score**
 
-### Jumlah Cluster
-
 Berdasarkan hasil evaluasi dan pertimbangan tujuan segmentasi, digunakan: **k = 5**
 
 ## 📈 Visualisasi PCA
