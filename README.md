@@ -64,7 +64,6 @@ EDA dilakukan untuk memahami karakteristik, distribusi, dan pola awal pada data.
 - Kelompok usia muda dan usia produktif merupakan kelompok yang cukup dominan.
 - Profesi korban yang banyak ditemukan adalah wiraswasta, pelajar/mahasiswa, dan karyawan swasta.
 
----
 
 ## ⚙️ Data Preprocessing
 
@@ -79,7 +78,6 @@ Variabel kategorikal diproses melalui:
 - Penggabungan kategori dengan frekuensi rendah menjadi kategori **MINORITY**.
 - **One-Hot Encoding** untuk mengubah variabel kategorikal menjadi representasi numerik.
 
----
 
 ## 🤖 K-Means Clustering
 
