@@ -84,7 +84,6 @@ Untuk menentukan jumlah cluster yang digunakan, dilakukan evaluasi menggunakan:
 
 - **Elbow Method**
 - **Silhouette Score**
-- **Calinski-Harabasz Index**
 
 ### Jumlah Cluster
 
@@ -173,23 +172,3 @@ Hasil segmentasi dapat menjadi dasar untuk memahami karakteristik kelompok korba
 
 ---
 
-## 📁 Struktur Repository
-
-```text
-KP-KMeans-Traffic-Accident-Clustering/
-│
-├── README.md
-│
-├── notebooks/
-│   └── KMeans_Traffic_Accident_Analysis.ipynb
-│
-├── outputs/
-│   ├── elbow_plot.png
-│   ├── silhouette_plot.png
-│   ├── ch_index_plot.png
-│   ├── pca_2d.png
-│   └── pca_3d.png
-│
-├── requirements.txt
-│
-└── .gitignore
